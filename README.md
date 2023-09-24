@@ -65,13 +65,13 @@ where `0 <= p <= 1` is the success probability. `x` denotes the number of _failu
 ## Usage
 
 ```javascript
-import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-logcdf@deno/mod.js';
+import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-logcdf@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-logcdf@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-logcdf@v0.1.0-deno/mod.js';
 ```
 
 #### logcdf( x, p )
@@ -141,7 +141,7 @@ y = mylogcdf( 1.0 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-logcdf@deno/mod.js';
+import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-logcdf@v0.1.0-deno/mod.js';
 
 var p;
 var x;
