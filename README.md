@@ -67,7 +67,7 @@ where `0 <= p <= 1` is the success probability. `x` denotes the number of _failu
 To use in Observable,
 
 ```javascript
-logcdf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-logcdf@umd/browser.js' )
+logcdf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-logcdf@v0.2.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -79,7 +79,7 @@ var logcdf = require( 'path/to/vendor/umd/stats-base-dists-geometric-logcdf/inde
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-logcdf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-logcdf@v0.2.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -162,7 +162,7 @@ y = mylogcdf( 1.0 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-logcdf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-geometric-logcdf@v0.2.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
