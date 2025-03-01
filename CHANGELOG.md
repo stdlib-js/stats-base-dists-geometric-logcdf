@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-08)
+## Unreleased (2025-03-01)
+
+<section class="features">
+
+### Features
+
+-   [`d269f48`](https://github.com/stdlib-js/stdlib/commit/d269f482403afcd7bab905b05255f66624904998) - add C implementation for `stats/base/dists/geometric/logcdf` [(#4205)](https://github.com/stdlib-js/stdlib/pull/4205)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3633](https://github.com/stdlib-js/stdlib/issues/3633)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`d269f48`](https://github.com/stdlib-js/stdlib/commit/d269f482403afcd7bab905b05255f66624904998) - **feat:** add C implementation for `stats/base/dists/geometric/logcdf` [(#4205)](https://github.com/stdlib-js/stdlib/pull/4205) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`bce4dac`](https://github.com/stdlib-js/stdlib/commit/bce4dac63618cd50985d7875d89933c116cd185d) - **bench:** refactor random number generation in `stats/base/dists/geometric` [(#4931)](https://github.com/stdlib-js/stdlib/pull/4931) _(by Karan Anand, stdlib-bot)_
 
 </details>
@@ -24,9 +47,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
+-   Prashant Kumar Yadav
 
 </section>
 
