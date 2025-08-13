@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-30)
+## Unreleased (2025-08-13)
 
 <section class="features">
 
@@ -20,9 +20,9 @@
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3633](https://github.com/stdlib-js/stdlib/issues/3633)
+[#3633](https://github.com/stdlib-js/stdlib/issues/3633), [#5715](https://github.com/stdlib-js/stdlib/issues/5715)
 
 </section>
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`59bb1b1`](https://github.com/stdlib-js/stdlib/commit/59bb1b1660a736459b4eb16eb4b390ccdb7855a4) - **chore:** address commit comments [(#7867)](https://github.com/stdlib-js/stdlib/pull/7867) _(by NEEKUorAAYUSH, Athan Reines)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`d269f48`](https://github.com/stdlib-js/stdlib/commit/d269f482403afcd7bab905b05255f66624904998) - **feat:** add C implementation for `stats/base/dists/geometric/logcdf` [(#4205)](https://github.com/stdlib-js/stdlib/pull/4205) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
 -   [`bce4dac`](https://github.com/stdlib-js/stdlib/commit/bce4dac63618cd50985d7875d89933c116cd185d) - **bench:** refactor random number generation in `stats/base/dists/geometric` [(#4931)](https://github.com/stdlib-js/stdlib/pull/4931) _(by Karan Anand, stdlib-bot)_
@@ -48,9 +49,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Karan Anand
+-   NEEKUorAAYUSH
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
 
