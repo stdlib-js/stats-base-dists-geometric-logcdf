@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> [Geometric][geometric-distribution] distribution logarithm of [cumulative distribution function][cdf].
+> [Geometric][geometric-distribution] distribution natural logarithm of [cumulative distribution function][cdf].
 
 <section class="intro">
 
@@ -88,7 +88,7 @@ var logcdf = require( '@stdlib/stats-base-dists-geometric-logcdf' );
 
 #### logcdf( x, p )
 
-Evaluates the logarithm of the [cumulative distribution function][cdf] for a [geometric][geometric-distribution] distribution with success probability `p`.
+Evaluates the natural logarithm of the [cumulative distribution function][cdf] for a [geometric][geometric-distribution] distribution with success probability `p`.
 
 ```javascript
 var y = logcdf( 2.0, 0.5 );
@@ -197,7 +197,7 @@ logEachMap( 'x: %0.4f, p: %0.4f, F(x;p): %0.4f', x, p, logcdf );
 
 #### stdlib_base_dists_geometric_logcdf( x, p )
 
-Evaluates the logarithm of the [cumulative distribution function][cdf] of a [geometric][geometric-distribution] distribution with success probability `p`.
+Evaluates the natural logarithm of the [cumulative distribution function][cdf] of a [geometric][geometric-distribution] distribution with success probability `p`.
 
 ```c
 double out = stdlib_base_dists_geometric_logcdf( 2.0, 0.5 );
